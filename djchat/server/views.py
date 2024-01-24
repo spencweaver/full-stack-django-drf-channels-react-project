@@ -5,6 +5,7 @@ from .serializer import ServerSerializer
 
 from .models import Server
 
+
 class ServerListViewSet(viewsets.ViewSet):
 
     queryset = Server.objects.all()
